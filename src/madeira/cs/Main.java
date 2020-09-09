@@ -1,6 +1,8 @@
 package madeira.cs;
 
 
+import java.io.File;
+import java.io.FileReader;
 import java.util.Scanner;
 
 public class Main {
@@ -105,7 +107,7 @@ System.out.println ("Please enter my first or last name.");
         b = j % x == i;
         System.out.print(b);
 
-
+System.out.println ("");
 
         // ==================
         // EXTRA CREDIT BELOW
@@ -120,12 +122,15 @@ System.out.println ("Please enter my first or last name.");
                 a. Read your current age
                 b. Manipulate that number
          */
+System.out.println ("Please enter my age in years.");
+Scanner myScanner4 = new Scanner (System.in);
 
+double n1, n2, n3;
+n1 = myScanner4.nextDouble();
+n2 = (5);
+n3 = n1 + n2;
 
-
-
-
-
+System.out.println ("In five years, I will be " +n3 +" years old.");
 
 
 
@@ -139,7 +144,17 @@ System.out.println ("Please enter my first or last name.");
                 c. Your result should be a decimal
          */
 
+System.out.println ("Please enter three numbers.");
+Scanner myScanner5 = new Scanner (System.in);
 
+double n4, n5, n6, n7, n8;
+n4 = myScanner5.nextDouble();
+n5 = myScanner5.nextDouble();
+n6 = myScanner5.nextDouble();
+n7 = n4 + n5 + n6;
+n8 = n7/2;
+
+System.out.println ("The sum of these three numbers divided by two is " +n8);
 
 
 
@@ -155,7 +170,18 @@ System.out.println ("Please enter my first or last name.");
          */
 
 
-
+for(int a = 0; a < 3; a++) {
+    System.out.println ("Please enter my first name.");
+    Scanner myScanner6 = new Scanner (System.in);
+    String ScannerString6 = myScanner6.nextLine ();
+            if (ScannerString6.equals("Eliza")) {
+                System.out.println ("Congratulations! You are correct.");
+                break;
+            }
+            else {
+                System.out.println ("Unfortunately, you are incorrect.");
+            }
+        }
 
 
 
@@ -168,12 +194,6 @@ System.out.println ("Please enter my first or last name.");
             Hints:
                 a. Create the file, write some stuff, save it to the same folder as your program
          */
-
-
-
-
-
-
 
 
 
