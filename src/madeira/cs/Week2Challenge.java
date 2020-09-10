@@ -1,11 +1,8 @@
 package madeira.cs;
 
-
-import java.io.File;
-import java.io.FileReader;
 import java.util.Scanner;
 
-public class Main {
+public class Week2Challenge {
     public static void main(String[] args) {
         /*
             Problem I
@@ -16,9 +13,9 @@ public class Main {
                 b. Use 1 print statement for each part of your name (i.e. first, middle, last)
          */
 
-        System.out.print("Eliza");
-        System.out.print (" Mallory");
-        System.out.print (" Reed");
+System.out.print("Eliza");
+System.out.print (" Mallory");
+System.out.print (" Reed");
 
         /*
             Problem II
@@ -29,7 +26,7 @@ public class Main {
                 b. Not use the "println()" method
          */
 
-        System.out.print ("\nHello,\nWorld\n");
+System.out.print ("\nHello,\nWorld\n");
 
 
         /*
@@ -125,13 +122,12 @@ System.out.println ("");
 System.out.println ("Please enter my age in years.");
 Scanner myScanner4 = new Scanner (System.in);
 
-double n1, n2, n3;
-n1 = myScanner4.nextDouble();
+int n1, n2, n3;
+n1 = myScanner4.nextInt();
 n2 = (5);
 n3 = n1 + n2;
 
 System.out.println ("In five years, I will be " +n3 +" years old.");
-
 
 
         /*
@@ -147,17 +143,14 @@ System.out.println ("In five years, I will be " +n3 +" years old.");
 System.out.println ("Please enter three numbers.");
 Scanner myScanner5 = new Scanner (System.in);
 
-double n4, n5, n6, n7, n8;
-n4 = myScanner5.nextDouble();
-n5 = myScanner5.nextDouble();
-n6 = myScanner5.nextDouble();
+int n4, n5, n6, n7, n8;
+n4 = myScanner5.nextInt();
+n5 = myScanner5.nextInt();
+n6 = myScanner5.nextInt();
 n7 = n4 + n5 + n6;
 n8 = n7/2;
 
 System.out.println ("The sum of these three numbers divided by two is " +n8);
-
-
-
 
 
         /*
@@ -171,9 +164,9 @@ System.out.println ("The sum of these three numbers divided by two is " +n8);
 
 
 for(int a = 0; a < 3; a++) {
-    System.out.println ("Please enter my first name.");
-    Scanner myScanner6 = new Scanner (System.in);
-    String ScannerString6 = myScanner6.nextLine ();
+System.out.println ("Please enter my first name.");
+Scanner myScanner6 = new Scanner (System.in);
+String ScannerString6 = myScanner6.nextLine ();
             if (ScannerString6.equals("Eliza")) {
                 System.out.println ("Congratulations! You are correct.");
                 break;
@@ -182,8 +175,6 @@ for(int a = 0; a < 3; a++) {
                 System.out.println ("Unfortunately, you are incorrect.");
             }
         }
-
-
 
         /*
             Problem IX
@@ -207,11 +198,7 @@ for(int a = 0; a < 3; a++) {
             New number: 234567891011
          */
 
-
-
-
-
-
+int TenDigits = 1234567890;
 
 
 
