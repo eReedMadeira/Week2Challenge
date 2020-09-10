@@ -198,11 +198,6 @@ String ScannerString6 = myScanner6.nextLine ();
             New number: 234567891011
          */
 
-int TenDigits = 1234567890;
-
-
-
-
 
 
     }
