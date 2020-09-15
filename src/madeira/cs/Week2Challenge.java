@@ -3,6 +3,12 @@ package madeira.cs;
 import java.util.Scanner;
 
 public class Week2Challenge {
+    /*
+        Grades and comments below
+
+        5/5 for effort
+
+     */
     public static void main(String[] args) {
         /*
             Problem I
@@ -26,7 +32,7 @@ System.out.print (" Reed");
                 b. Not use the "println()" method
          */
 
-System.out.print ("\nHello,\nWorld\n");
+System.out.print ("\nHello,\nWorld\n"); // WOOT awesome use of \n
 
 
         /*
@@ -40,7 +46,7 @@ System.out.println ("Please enter my age in years.");
 
 Scanner myScanner = new Scanner (System.in);
 String ScannerString = myScanner.nextLine();
-
+            // O HOLD UP a try//catch statement!! you crazy! this is great!!
         try
         {
             Integer.parseInt(ScannerString);
@@ -65,7 +71,7 @@ System.out.println ("Please enter my first or last name.");
 Scanner myScanner2 = new Scanner (System.in);
 
 String ScannerString2 = myScanner2.nextLine ();
-
+        // Excellent work here
         if (ScannerString2.equals("Eliza")) {
             System.out.println ("You have entered my first name.");
         }
@@ -119,6 +125,8 @@ System.out.println ("");
                 a. Read your current age
                 b. Manipulate that number
          */
+
+        // +1 good work
 System.out.println ("Please enter my age in years.");
 Scanner myScanner4 = new Scanner (System.in);
 
@@ -142,7 +150,7 @@ System.out.println ("In five years, I will be " +n3 +" years old.");
 
 System.out.println ("Please enter three numbers.");
 Scanner myScanner5 = new Scanner (System.in);
-
+// +.75, need to use decimals and ints
 int n4, n5, n6, n7, n8;
 n4 = myScanner5.nextInt();
 n5 = myScanner5.nextInt();
@@ -163,7 +171,7 @@ System.out.println ("The sum of these three numbers divided by two is " +n8);
          */
 
 
-for(int a = 0; a < 3; a++) {
+for(int a = 0; a < 3; a++) { // heck ya! a for loop! +1
 System.out.println ("Please enter my first name.");
 Scanner myScanner6 = new Scanner (System.in);
 String ScannerString6 = myScanner6.nextLine ();
